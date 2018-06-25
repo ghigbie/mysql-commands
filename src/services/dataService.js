@@ -1,3 +1,4 @@
+//this can be restructured as one big object with allof the arrays as props of the object
 const generalCommands = [
     {
         command: 'mysql-ctl cli',
@@ -51,3 +52,10 @@ const insertingData = {
         description: 'Shows all data in a table'
     }
 };
+
+const allCommands = {
+    generalCommands: generalCommands,
+    insertingData: insertingData
+};
+
+export default generalCommands;
