@@ -34,6 +34,10 @@ const generalCommands = {
     describe: {
         command: 'DESC <table name>',
         description: 'Shows the contents of a table'
+    },
+    dropTable: {
+        command: 'DROP <table name>',
+        description: 'Deletes a table from the database'
     }
 };
 
