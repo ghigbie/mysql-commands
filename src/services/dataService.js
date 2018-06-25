@@ -42,16 +42,16 @@ const generalCommands = [
     }
 ];
 
-const insertingData = {
-    insert: {
+const insertingData = [
+    {
         command: 'INSERT INTO <table name> (<column name>, <column name>) VALUES (<actual value>, <actual value>)',
         description: 'Inserts data into table'
     },
-    view: {
+    {
         command: 'SELECT * FROM <table name>',
         description: 'Shows all data in a table'
     }
-};
+];
 
 const allCommands = {
     generalCommands: generalCommands,
