@@ -42,9 +42,33 @@ const generalCommands = [
     }
 ];
 
+const tableCommands =  [
+    {
+        command: 'SHOW TABLES',
+        descrisption: 'Shows a list of tables'
+    },
+    {
+        command: 'SHOW COLUMNS from <table name>',
+        description: 'Shows details about a specific table'
+    },
+    {
+        command: 'DESC <table name>',
+        description: 'Shows details about a specific table (also has other uses)'
+    },
+    {
+        command: 'CREATE TABLE <table name> (<data type> <null state>, <data type> <null state>)',
+        descrisption: 'Creates table with the described characteristics'
+    },
+    {
+        command: 'DROP TABLE <table name',
+        description: 'Deletes a table from the database'
+    }
+    
+];
+
 const insertingData = [
     {
-        command: 'INSERT INTO <table name> (<column name>, <column name>) VALUES (<actual value>, <actual value>)',
+        command: 'INSERT INTO <table name> (<column name 1>, <column name 2>) VALUES (<actual value 1>, <actual value 2>)',
         description: 'Inserts data into table'
     },
     {
