@@ -69,11 +69,15 @@ const tableCommands =  [
 const insertingData = [
     {
         command: 'INSERT INTO <table name> (<column name 1>, <column name 2>) VALUES (<actual value 1>, <actual value 2>)',
-        description: 'Inserts data into table'
+        description: 'Inserts data into table. You can also specifiy nullibility by including "NOT NULL". A default value can also be specified by using "DEFAULT <default value>".'
     },
     {
         command: 'SELECT * FROM <table name>',
         description: 'Shows all data in a table'
+    },
+    {
+        command: 'SHOW WARNINGS',
+        description: 'Shows warnings generated from inserting data'
     }
 ];
 
