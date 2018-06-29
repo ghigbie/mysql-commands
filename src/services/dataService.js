@@ -1,4 +1,6 @@
 //this can be restructured as one big object with allof the arrays as props of the object
+const tableTitles = ['General Commands', 'Table Commands', 'Crud Operations'];
+
 const generalCommands = [
     {
         command: 'mysql-ctl cli',
@@ -94,7 +96,7 @@ const crudOperations = [
 ];
 
 const tableData = {
-    tableTitles: ['General Commands', 'Table Commands', 'Crud Operations'],
+    tableTitles: tableTitles,
     generalCommands: generalCommands,
     tableCommands: tableCommands,
     crudOperations: crudOperations
