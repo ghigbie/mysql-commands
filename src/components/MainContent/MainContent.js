@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './MainContent.css';
 
-import Table from './../Table';
+import Table from './../Table/Table';
 
 const MainContent = (props) => (
             <div>
