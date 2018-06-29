@@ -94,6 +94,7 @@ const crudOperations = [
 ];
 
 const tableData = {
+    tableTitles: ['General Commands', 'Table Commands', 'Crud Operations'],
     generalCommands: generalCommands,
     tableCommands: tableCommands,
     crudOperations: crudOperations

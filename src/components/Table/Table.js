@@ -3,7 +3,7 @@ import './Table.css';
 
 const Table = (props) => (
             <div>
-                <h3>{this.props.tableTitle}</h3>
+                <h3>{props.tableTitle}</h3>
                 <table>
                     <thead>
                         <tr>
@@ -12,7 +12,7 @@ const Table = (props) => (
                         </tr>
                     </thead>
                     <tbody>
-                        {this.props.tableData.map((command, index) => (
+                        {props.tableData.map((command, index) => (
                             <tr key={index}>    
                                 <td>{command.command}</td>
                                 <td>{command.description}</td>
