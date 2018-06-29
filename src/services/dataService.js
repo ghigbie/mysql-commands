@@ -78,6 +78,18 @@ const insertingData = [
     {
         command: 'SHOW WARNINGS',
         description: 'Shows warnings generated from inserting data'
+    },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest>',
+        description: 'Shows all data that matches the query value after the \'WHERE\' keyword'
+    },
+    {
+        command: 'UPDATE <table name> SET <column name> = <new value> WHERE <column name> = <value of interest>',
+        description: 'Changes a value to of a specific column wher that value is equal to the value of interest.'
+    },
+    {
+        command: '',
+        description: ''
     }
 ];
 
