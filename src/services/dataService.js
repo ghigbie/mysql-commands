@@ -96,10 +96,10 @@ const crudOperations = [
 ];
 
 const tableData = {
-    tableTitles: tableTitles,
-    generalCommands: generalCommands,
-    tableCommands: tableCommands,
-    crudOperations: crudOperations
+    tableTitles,
+    generalCommands,
+    tableCommands,
+    crudOperations
 };
 
 export default tableData;
