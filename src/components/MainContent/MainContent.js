@@ -3,14 +3,12 @@ import './MainContent.css';
 
 import Table from './../Table';
 
-class MainContent extends Component{
-    render(){
-        return(
+const MainContent = (props) => (
             <div>
                 <h1>Main Content</h1>
-            </div>
-        );
-    }
-}
-
+                <Table tableTitle={'General Commands'} tableRows={props.generalCommands} />
+                <Table tableTitle={'Table Commands'} tableRows={props.tableCommands} />
+                <Table tableTitle={'Crud Operations'} tableRows={props.crudOperations} />
+            </div>);
+            
 export default MainContent;

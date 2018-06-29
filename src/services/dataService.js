@@ -66,7 +66,7 @@ const tableCommands =  [
     
 ];
 
-const insertingData = [
+const crudOperations = [
     {
         command: 'INSERT INTO <table name> (<column name 1>, <column name 2>) VALUES (<actual value 1>, <actual value 2>)',
         description: 'Inserts data into table. You can also specifiy nullibility by including "NOT NULL". A default value can also be specified by using "DEFAULT <default value>".'

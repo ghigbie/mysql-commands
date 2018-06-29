@@ -13,7 +13,7 @@ const Table = (props) => (
                     </thead>
                     <tbody>
                         {this.props.generalCommands.map((command, index) => (
-                            <tr key={index}>
+                            <tr key={index}>    
                                 <td>{command.command}</td>
                                 <td>{command.description}</td>
                             </tr>
