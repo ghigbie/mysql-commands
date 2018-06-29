@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 import './Table.css';
 
-class Table extends Component{
-    render(){
-        return(
+const Table = (props) => (
             <div>
+                <h3>{this.props.tableTitle}</h3>
                 <table>
-                    <tr>
-                        <th>Command</th>
-                        <th>Description</th>
-                    </tr>
-                    {this.props.generalCommands.map((command, index) => (
-                        <tr key={index}>
-                            <td>{command.command}</td>
-                            <td>{command.description}</td>
+                    <thead>
+                        <tr>
+                            <th>Command</th>
+                            <th>Description</th>
                         </tr>
-                    ))}
+                    </thead>
+                    <tbody>
+                        {this.props.generalCommands.map((command, index) => (
+                            <tr key={index}>
+                                <td>{command.command}</td>
+                                <td>{command.description}</td>
+                            </tr>
+                        ))}
+                    </tbody>
                 </table>
-            </div>
-        );
-    }
-}
+            </div>);
 
 export default Table;
