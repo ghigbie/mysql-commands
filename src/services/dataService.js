@@ -78,6 +78,10 @@ const crudOperations = [
         description: 'Shows all data in a table'
     },
     {
+        command: 'DELETE FROM <table name>',
+        description: 'Removes all data from a table. The table is still there.'
+    },
+    {
         command: 'SHOW WARNINGS',
         description: 'Shows warnings generated from inserting data'
     },
