@@ -93,9 +93,10 @@ const crudOperations = [
     }
 ];
 
-const allCommands = {
+const tableData = {
     generalCommands: generalCommands,
-    insertingData: insertingData
+    tableCommands: tableCommands,
+    crudOperations: crudOperations
 };
 
-export default generalCommands;
+export default tableData;
