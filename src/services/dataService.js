@@ -119,6 +119,10 @@ const stringOperations = [
     {
         command: 'SELECT SUBSTRING(<column name>, <starting index>, <ending index>) FROM <table name>',
         description: 'Displays substrings of data from the starting index until the ending index. If no strating index is provided, then data will be display up until the ending index.'
+    },
+    {
+        command: 'SELECT CONCAT(SUBSRINT(<column name>, <starting index>, <ending index>), ...) FROM <table name>',
+        description: 'Combines CONCAT and SUBSTRING operations'
     }
 ];
 
