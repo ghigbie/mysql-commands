@@ -115,6 +115,10 @@ const stringOperations = [
     {
         command: 'SELECT CONCAT_WS(<type of separator, <column name>, <column name>, <clomun name>)',
         description: 'Joins data from columns together with a speartor, which is specified first'
+    },
+    {
+        command: 'SELECT SUBSTRING(<column name>, <starting index>, <ending index>) FROM <table name>',
+        description: 'Displays substrings of data from the starting index until the ending index. If no strating index is provided, then data will be display up until the ending index.'
     }
 ];
 
@@ -122,7 +126,8 @@ const tableData = {
     tableTitles,
     generalCommands,
     tableCommands,
-    crudOperations
+    crudOperations, 
+    stringOperations
 };
 
 export default tableData;
