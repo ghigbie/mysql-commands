@@ -1,5 +1,5 @@
 //this can be restructured as one big object with allof the arrays as props of the object
-const tableTitles = ['General Commands', 'Table Commands', 'Crud Operations'];
+const tableTitles = ['General Commands', 'Table Commands', 'Crud Operations', 'String Operations'];
 
 const generalCommands = [
     {
@@ -100,6 +100,17 @@ const crudOperations = [
     {
         command: '',
         description: ''
+    }
+];
+
+const stringOperations = [
+    {
+        command: 'SELECT CONCAT(<column name>, <type of separator>, <column name>,...) FROM <table name>',
+        description: 'Joins data from columns together with a separator'
+    },
+    {
+        command: 'SELECT CONCAT_WS(<type of separator, <column name>, <column name>, <clomun name>)',
+        description: 'Joins data from columns together with a speartor, which is specified first'
     }
 ];
 
