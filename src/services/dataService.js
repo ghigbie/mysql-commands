@@ -123,7 +123,12 @@ const stringOperations = [
     {
         command: 'SELECT CONCAT(SUBSRINT(<column name>, <starting index>, <ending index>), ...) FROM <table name>',
         description: 'Combines CONCAT and SUBSTRING operations'
+    },
+    {
+        command: 'SELECT REPLACE(<column name>, <string to be replaced>, <string that repalces>) FROM <table name>',
+        description: 'Replaces data from a targeted column with a specified string'
     }
+    
 ];
 
 const tableData = {
