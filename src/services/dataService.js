@@ -90,6 +90,10 @@ const crudOperations = [
         description: 'Shows all data that matches the query value after the \'WHERE\' keyword'
     },
     {
+        commnad: 'SELECT <column name> AS <display column name> FROM <table name>',
+        description: 'Shows all data in the column specified and displays the data in a new column name'
+    },
+    {
         command: 'DELETE FROM <table name> WHERE <column name> = <value of interest>',
         description: 'Removes specific elements from selected table where the column matches the value specified'
     },
