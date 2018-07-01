@@ -133,7 +133,7 @@ const stringOperations = [
         description: 'Reverses a slected string'
     },
     {
-        command: 'SELECT CHARLENGTH(<column name>) FROM <table name>',
+        command: 'SELECT CHAR_LENG_LENGTHTH(<column name>) FROM <table name>',
         description: 'Provides the number of characters in a string'
     }
     
