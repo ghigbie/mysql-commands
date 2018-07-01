@@ -135,6 +135,14 @@ const stringOperations = [
     {
         command: 'SELECT CHAR_LENG_LENGTHTH(<column name>) FROM <table name>',
         description: 'Provides the number of characters in a string'
+    },
+    {
+        command: 'SELECT UPPER(<column name>) FROM <table name>',
+        description: 'Changes the character in the selected column to be uppercase'
+    },
+    {
+        command: 'SELECT LOWER(<column name) FROM <table name>',
+        description: 'Changes the character in the selected column to be lowercase'
     }
     
 ];
