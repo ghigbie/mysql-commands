@@ -127,6 +127,10 @@ const stringOperations = [
     {
         command: 'SELECT REPLACE(<column name>, <string to be replaced>, <string that repalces>) FROM <table name>',
         description: 'Replaces data from a targeted column with a specified string'
+    },
+    {
+        command: 'SELECT REVERSE(<column name>) FROM <table name>',
+        description: 'Reverses a slected string'
     }
     
 ];
