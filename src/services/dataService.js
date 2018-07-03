@@ -154,6 +154,30 @@ const refiningOperations = [
     {
         command: 'SELECT DISTINCT <column name>, <column name> FROM <table name>',
         description: 'Only selects the unique values for the columns provided'
+    },
+    {
+        command: 'SELECT <column name> FROM <table name> LIMIT BY <a number>',
+        description: 'Limits the number of results produced with the query to the number provided'
+    },
+    {
+        command: 'SELECT <column name> FROM <table name> LIMIT BY <a begining number>, <an ending number>',
+        description: 'Limits the number of results produced with the query by the range provided'
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
     }
 ]
 
