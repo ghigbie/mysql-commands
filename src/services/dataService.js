@@ -164,8 +164,20 @@ const refiningOperations = [
         description: 'Limits the number of results produced with the query by the range provided'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT <column name> FROM <table name> ORDER BY <column name>',
+        description: 'Orders the return values of the query in ascending order '
+    },
+    {
+        command: 'SELECT <column name> FROM <table name> ORDER BY <column name> DESC',
+        description: 'Orders the return vales of the query in descending order'
+    },
+    {
+        command: 'SELECT <column name> FROM <table name> WHERE <column name> LIKE \'%<a value>%\'',
+        description: 'Returns the values of a query that contain the value following LIKE'
+    },
+    {
+        command: 'SELECT <column name> FROM <table name> WHERE <column name> Like \'___\'',
+        description: 'Returns the values of a query whose length is equal to the number of underscores provided'
     },
     {
         command: '',
