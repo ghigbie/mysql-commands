@@ -1,5 +1,5 @@
 //this can be restructured as one big object with allof the arrays as props of the object
-const tableTitles = ['General Commands', 'Table Commands', 'Crud Operations', 'String Operations'];
+const tableTitles = ['General Commands', 'Table Commands', 'Crud Operations', 'String Operations', 'Refining Operations'];
 
 const generalCommands = [
     {
@@ -144,15 +144,27 @@ const stringOperations = [
         command: 'SELECT LOWER(<column name) FROM <table name>',
         description: 'Changes the character in the selected column to be lowercase'
     }
-    
 ];
+
+const refiningOperations = [
+    {
+        command: 'SELECT DISTINCT <column name> FROM <table name>',
+        description: 'Only selects the unique values for the column provided'
+    },
+    {
+        command: 'SELECT DISTINCT <column name>, <column name> FROM <table name>',
+        description: 'Only selects the unique values for the columns provided'
+    }
+]
+
 
 const tableData = {
     tableTitles,
     generalCommands,
     tableCommands,
     crudOperations, 
-    stringOperations
+    stringOperations,
+    refiningOperations
 };
 
 export default tableData;
