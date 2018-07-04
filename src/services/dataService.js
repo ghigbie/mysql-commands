@@ -191,8 +191,46 @@ const refiningOperations = [
         command: '',
         description: ''
     }
-]
+];
 
+const agregateFuncitons = [
+    {
+        command: 'SELECT COUNT(<column name>) FROM <table name>',
+        description: 'Counts the number of entries that match the column of interest'
+    },
+    {
+        command: 'SELECT COUNT(DISTICT <column name>) FROM <table name>',
+        description: 'Counts the number of UNIQUE entries that match the column of interest'
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    },
+    {
+        command: '',
+        description: ''
+    }
+];
 
 const tableData = {
     tableTitles,
