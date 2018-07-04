@@ -219,12 +219,12 @@ const agregateFuncitons = [
         description: 'Provides a sum of all data in a given column'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT <column name> FROM books WHERE = (SELECT MIN(<column name>))',
+        description: 'Performs a subquey to find the lowest value in a column'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT <column name> FROM books WHERE = (SELECT MAX(<column name>))',
+        description: 'Performs a subquery to find the highest value in a column'
     },
     {
         command: '',
