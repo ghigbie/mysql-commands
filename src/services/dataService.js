@@ -238,7 +238,8 @@ const tableData = {
     tableCommands,
     crudOperations, 
     stringOperations,
-    refiningOperations
+    refiningOperations, 
+    agregateFuncitons
 };
 
 export default tableData;
