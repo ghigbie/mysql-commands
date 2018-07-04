@@ -207,16 +207,16 @@ const agregateFuncitons = [
         description: 'Provides the number of items of grouped data in each row selected'
     },
     {
-        command: 'SELECT MIN(<column name>) FROM books',
+        command: 'SELECT MIN(<column name>) FROM <table name>',
         description: 'Provides the lowest value of the column named'
     },
     {
-        command: 'SELECT MAX(<column name>) FROM books',
+        command: 'SELECT MAX(<column name>) FROM <table name>',
         description: 'Provides the highest value of the column named'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT SUM(<column name) FROM <table name>',
+        description: 'Provides a sum of all data in a given column'
     },
     {
         command: '',
