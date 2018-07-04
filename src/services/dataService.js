@@ -203,16 +203,16 @@ const agregateFuncitons = [
         description: 'Counts the number of UNIQUE entries that match the column of interest'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT <column name 1>, COUNT(*) FROM books GROUP BY <column name>',
+        description: 'Provides the number of items of grouped data in each row selected'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT MIN(<column name>) FROM books',
+        description: 'Provides the lowest value of the column named'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT MAX(<column name>) FROM books',
+        description: 'Provides the highest value of the column named'
     },
     {
         command: '',
