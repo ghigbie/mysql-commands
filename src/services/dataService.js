@@ -273,7 +273,7 @@ const timeFunctions = [
         command: 'SELECT MINUTE(<time> OR <datetime>) FROM, <table name>',
         description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
     },
-    }
+    {
         command: 'SELECT SECOND(<time> OR <datetime>) FROM, <table name>',
         description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
     }
