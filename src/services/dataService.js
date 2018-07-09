@@ -246,8 +246,16 @@ const timeFunctions = [
         description: 'Provides the current date-time'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT DAY(<date>) FROM, <table name>',
+        description: 'Extracts the day from a DATE data type'
+    },
+    {
+        command: 'SELECT MONTH(<date>) FROM, <table name>',
+        description: 'Extracts the month from a DATE data type'
+    },
+    {
+        command: 'SELECT YEAR(<date>) FROM, <table name>',
+        description: 'Extracts the year from a DATE data type'
     }
 ];
 
@@ -258,7 +266,8 @@ const tableData = {
     crudOperations, 
     stringOperations,
     refiningOperations, 
-    agregateFuncitons
+    agregateFuncitons,
+    timeFunctions
 };
 
 export default tableData;
