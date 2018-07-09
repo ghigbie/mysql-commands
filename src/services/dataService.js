@@ -246,16 +246,28 @@ const timeFunctions = [
         description: 'Provides the current date-time'
     },
     {
-        command: 'SELECT DAY(<date>) FROM, <table name>',
-        description: 'Extracts the day from a DATE data type'
+        command: 'SELECT DAY(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the day from a DATE or DATETIEM data type'
     },
     {
-        command: 'SELECT MONTH(<date>) FROM, <table name>',
-        description: 'Extracts the month from a DATE data type'
+        command: 'SELECT MONTH(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the month from a DATE or DATETIME data type'
     },
     {
-        command: 'SELECT YEAR(<date>) FROM, <table name>',
-        description: 'Extracts the year from a DATE data type'
+        command: 'SELECT YEAR(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the year from a DATE or DATETIME data type'
+    },
+    {
+        command: 'SELECT DAYNAME(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the day name from a DATE or DATETIME data type'
+    },
+    {
+        command: 'SELECT DAYOFWEEK(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the numeric representation of the day of the week from a DATE or DATETIME data type'
+    },
+    {
+        command: 'SELECT DAYOFYEAR(<date> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the numeric representation of the day of the year from a DATE or DATETIME data type'
     }
 ];
 
