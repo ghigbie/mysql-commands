@@ -276,7 +276,16 @@ const timeFunctions = [
     {
         command: 'SELECT SECOND(<time> OR <datetime>) FROM, <table name>',
         description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
+    },
+    {
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%m/%d/%y\') FROM, <table name>',
+        description: 'PrSovides the numeric representation of the date from a DATE or DATETIME data type'
+    },
+    {
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%M %d, %Y\') FROM, <table name>',
+        description: 'PrSovides the written representation of the date from a DATE or DATETIME data type'
     }
+    
 ];
 
 const tableData = {
