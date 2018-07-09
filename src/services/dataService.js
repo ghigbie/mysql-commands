@@ -266,8 +266,16 @@ const timeFunctions = [
         description: 'Extracts the numeric representation of the day of the week from a DATE or DATETIME data type'
     },
     {
-        command: 'SELECT DAYOFYEAR(<date> OR <datetime>) FROM, <table name>',
-        description: 'Extracts the numeric representation of the day of the year from a DATE or DATETIME data type'
+        command: 'SELECT HOUR(<time> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
+    },
+    {
+        command: 'SELECT MINUTE(<time> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
+    },
+    }
+        command: 'SELECT SECOND(<time> OR <datetime>) FROM, <table name>',
+        description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
     }
 ];
 
