@@ -278,20 +278,24 @@ const timeFunctions = [
         description: 'Extracts the numeric representation of the day of the year from a TIME or DATETIME data type'
     },
     {
-        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%m/%d/%y\') FROM, <table name>',
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%m/%d/%y\') FROM <table name>',
         description: 'Provides the numeric representation of the date from a DATE or DATETIME data type'
     },
     {
-        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%M %d, %Y\') FROM, <table name>',
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%M %d, %Y\') FROM <table name>',
         description: 'Provides the written representation of the date from a DATE or DATETIME data type'
     },
     {
-        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%W\') FROM, <table name>',
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%W\') FROM <table name>',
         description: 'Provides the day of the week from a DATE or DATETIME data type'
     },    
     {
-        command: 'SELECT DATE_FORMAT(<datetime>, \'%m/%d/%Y at %h:%m\') FROM, <table name>',
+        command: 'SELECT DATE_FORMAT(<datetime>, \'%m/%d/%Y at %h:%m\') FROM <table name>',
         description: 'Provides the written representation of the date and time from a DATETIME data type'
+    },
+    {
+        command: 'SELECT DATEDIFF(NOW(), <date> OR <datetime> FROM <table name>',
+        description: 'Provides an integer that represents the difference in days from now and the passed in date value'
     },
 
     
