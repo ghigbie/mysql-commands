@@ -301,6 +301,10 @@ const timeFunctions = [
         command: 'SELECT DATE_ADD(<date> OR <datetime>, INTERVAL <number> <type>) FROM <table name>',
         description: 'Adds a specified amout of time to a DATE or DATETIME data type'
     },
+    {
+        command: 'SELECT <date> OR <datetime> + INTERVAL <number> <type> FROM <table name>',
+        escription: 'Adds a specified amout of time to a DATE or DATETIME data type. Just as above'
+    },
 
     
 ];
