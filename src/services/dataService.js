@@ -284,7 +284,12 @@ const timeFunctions = [
     {
         command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%M %d, %Y\') FROM, <table name>',
         description: 'Provides the written representation of the date from a DATE or DATETIME data type'
-    }
+    },
+    {
+        command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%W\') FROM, <table name>',
+        description: 'Provides the day of the week from a DATE or DATETIME data type'
+    },
+
     
 ];
 
