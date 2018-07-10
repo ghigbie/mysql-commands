@@ -288,6 +288,10 @@ const timeFunctions = [
     {
         command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%W\') FROM, <table name>',
         description: 'Provides the day of the week from a DATE or DATETIME data type'
+    },    
+    {
+        command: 'SELECT DATE_FORMAT(<datetime>, \'%m/%d/%Y at %h:%m\') FROM, <table name>',
+        description: 'Provides the written representation of the date and time from a DATETIME data type'
     },
 
     
