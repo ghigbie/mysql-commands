@@ -279,11 +279,11 @@ const timeFunctions = [
     },
     {
         command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%m/%d/%y\') FROM, <table name>',
-        description: 'PrSovides the numeric representation of the date from a DATE or DATETIME data type'
+        description: 'Provides the numeric representation of the date from a DATE or DATETIME data type'
     },
     {
         command: 'SELECT DATE_FORMAT(<date> OR <datetime>, \'%M %d, %Y\') FROM, <table name>',
-        description: 'PrSovides the written representation of the date from a DATE or DATETIME data type'
+        description: 'Provides the written representation of the date from a DATE or DATETIME data type'
     }
     
 ];
