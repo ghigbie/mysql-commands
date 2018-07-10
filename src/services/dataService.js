@@ -297,6 +297,10 @@ const timeFunctions = [
         command: 'SELECT DATEDIFF(NOW(), <date> OR <datetime> FROM <table name>',
         description: 'Provides an integer that represents the difference in days from now and the passed in date value'
     },
+    {
+        command: 'SELECT DATE_ADD(<date> OR <datetime>, INTERVAL <number> <type>) FROM <table name>',
+        description: 'Adds a specified amout of time to a DATE or DATETIME data type'
+    },
 
     
 ];
