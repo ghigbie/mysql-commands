@@ -323,6 +323,14 @@ const logicalOperators = [
     {
         command: 'SELECT * FROM <table name> WHERE <column name> != <value of interest>',
         description: 'Provides all items not equal to the value of interest'
+    },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> LIKE \'%<value of interest>%\'',
+        description: 'Provides all items that contain the value of interest'
+    },    
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> NOT LIKE \'%<value of interest>%\'',
+        description: 'Provides all items that DOES NOT contain the value of interest'
     }
 ];
 
