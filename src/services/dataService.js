@@ -311,11 +311,19 @@ const timeFunctions = [
     },
     {
         command: 'SELECT <date> OR <datetime> - INTERVAL <number> <type> FROM <table name>',
-        escription: 'Subtracts a specified amout of time from a DATE or DATETIME data type. Just as above'
+        description: 'Subtracts a specified amout of time from a DATE or DATETIME data type. Just as above'
     },
-   
+];
 
-    
+const logicalOperators = [
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest>',
+        description: 'Provides all items equal to the value of interest'
+    },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> != <value of interest>',
+        description: 'Provides all items not equal to the value of interest'
+    }
 ];
 
 const tableData = {
@@ -326,7 +334,8 @@ const tableData = {
     stringOperations,
     refiningOperations, 
     agregateFuncitons,
-    timeFunctions
+    timeFunctions,
+    logicalOperators
 };
 
 export default tableData;
