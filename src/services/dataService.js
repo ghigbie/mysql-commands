@@ -363,7 +363,16 @@ const logicalOperators = [
     {
         command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> OR <column name2> = <value of interest>',
         description: 'Provides all items that match ONE of the TWO conditions'
-    },
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> BETWEEN <value of interest> AND <value of interest>',
+        description: 'Provides all items between two specified values'
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> NOT BETWEEN <value of interest> AND <value of interest>',
+        description: 'Provides all items that are NOT between two specified values'
+    }
+    
     
 ];
 
