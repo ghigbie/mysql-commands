@@ -347,7 +347,16 @@ const logicalOperators = [
     {
         command: 'SELECT * FROM <table name> WHERE <column name> <= <value of interest>',
         description: 'Provides all items that are less than or equal to the value of interest'
-    }
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> && <column name2> = <value of interest>',
+        description: 'Provides all items that match the TWO queries'
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> AND <column name2> = <value of interest>',
+        description: 'Provides all items that match the TWO queries'
+    },
+    
 ];
 
 const tableData = {
