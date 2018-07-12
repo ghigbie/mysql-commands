@@ -350,11 +350,19 @@ const logicalOperators = [
     },     
     {
         command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> && <column name2> = <value of interest>',
-        description: 'Provides all items that match the TWO queries'
+        description: 'Provides all items that match the TWO conditions'
     },     
     {
         command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> AND <column name2> = <value of interest>',
-        description: 'Provides all items that match the TWO queries'
+        description: 'Provides all items that match the TWO conditionss'
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> || <column name2> = <value of interest>',
+        description: 'Provides all items that match ONE of the TWO conditions'
+    },     
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> = <value of interest> OR <column name2> = <value of interest>',
+        description: 'Provides all items that match ONE of the TWO conditions'
     },
     
 ];
