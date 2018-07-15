@@ -371,6 +371,10 @@ const logicalOperators = [
     {
         command: 'SELECT * FROM <table name> WHERE <column name> NOT BETWEEN <value of interest> AND <value of interest>',
         description: 'Provides all items that are NOT between two specified values'
+    },
+    {
+        command: 'SELECT CAST(<data> AS <data type>)',
+        description: 'Transforms a data entry into a specified data type'
     }
     
     
