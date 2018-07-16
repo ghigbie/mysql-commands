@@ -375,7 +375,13 @@ const logicalOperators = [
     {
         command: 'SELECT CAST(<data> AS <data type>)',
         description: 'Transforms a data entry into a specified data type'
-    }
+    },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> IN (<value of interest>, <value of interest>, etc...)',
+        description: 'Provides all items that match multiple values of interest'
+    },
+    
+
     
     
 ];
