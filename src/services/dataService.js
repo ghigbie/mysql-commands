@@ -384,6 +384,14 @@ const logicalOperators = [
         command: 'SELECT * FROM <table name> WHERE <column name> NOT IN (<value of interest>, <value of interest>, etc...)',
         description: 'Provides all items that DO NOT match multiple values of interest'
     },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> WHERE <value of interest> % 2 != 0',
+        description: 'Provides all items that match the odd values of interest'
+    },
+    {
+        command: 'SELECT * FROM <table name> WHERE <column name> WHERE <value of interest> % 2 = 0',
+        description: 'Provides all items that match the even values of interest'
+    },
     
 
     
