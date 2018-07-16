@@ -392,6 +392,10 @@ const logicalOperators = [
         command: 'SELECT * FROM <table name> WHERE <column name> WHERE <value of interest> % 2 = 0',
         description: 'Provides all items that match the even values of interest'
     },
+    {
+        command: 'SELECT *, CASE WHEN <column name> = <value of interest> THEN <new classification> ELSE <new classification 2> AS <new column name> FROM <table name>',
+        description: 'Allows if-else staments to be used to add new classifications to queried items'
+    },
     
 
     
