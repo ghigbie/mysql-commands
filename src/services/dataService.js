@@ -385,11 +385,11 @@ const logicalOperators = [
 const joins = [
     {
         command: 'SELECT * FROM <table name>, <table name> WHERE <table name>.<column> = <table name>.<column>',
-        description: ''
+        description: 'IMPLICIT JOIN to join two tables on a single data point'
     },
     {
-        command: '',
-        description: ''
+        command: 'SELECT * FROM <table name> JOIN orders ON <table name>.<column> = <table name>.<column>',
+        description: 'EXPLICIT JOIN to join tow tables on a single data point'
     }
 ];
 
