@@ -382,6 +382,17 @@ const logicalOperators = [
     }
 ];
 
+const joins = [
+    {
+        command:
+        description:
+    },
+    {
+        command:
+        description:
+    }
+];
+
 const tableData = {
     tableTitles,
     generalCommands,
@@ -391,7 +402,8 @@ const tableData = {
     refiningOperations, 
     agregateFuncitons,
     timeFunctions,
-    logicalOperators
+    logicalOperators,
+    joins
 };
 
 export default tableData;
