@@ -100,10 +100,6 @@ const crudOperations = [
     {
         command: 'UPDATE <table name> SET <column name> = <new value> WHERE <column name> = <value of interest>',
         description: 'Changes a value to of a specific column wher that value is equal to the value of interest.'
-    },
-    {
-        command: '',
-        description: ''
     }
 ];
 
@@ -178,18 +174,6 @@ const refiningOperations = [
     {
         command: 'SELECT <column name> FROM <table name> WHERE <column name> Like \'___\'',
         description: 'Returns the values of a query whose length is equal to the number of underscores provided'
-    },
-    {
-        command: '',
-        description: ''
-    },
-    {
-        command: '',
-        description: ''
-    },
-    {
-        command: '',
-        description: ''
     }
 ];
 
@@ -395,11 +379,7 @@ const logicalOperators = [
     {
         command: 'SELECT *, CASE WHEN <column name> = <value of interest> THEN <new classification> ELSE <new classification 2> AS <new column name> FROM <table name>',
         description: 'Allows if-else staments to be used to add new classifications to queried items'
-    },
-    
-
-    
-    
+    }
 ];
 
 const tableData = {
