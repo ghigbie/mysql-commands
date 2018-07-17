@@ -384,12 +384,12 @@ const logicalOperators = [
 
 const joins = [
     {
-        command:
-        description:
+        command: 'SELECT * FROM <table name>, <table name> WHERE <table name>.<column> = <table name>.<column>',
+        description: ''
     },
     {
-        command:
-        description:
+        command: '',
+        description: ''
     }
 ];
 
