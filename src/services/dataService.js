@@ -388,8 +388,12 @@ const joins = [
         description: 'IMPLICIT JOIN to join two tables on a single data point'
     },
     {
-        command: 'SELECT * FROM <table name> JOIN orders ON <table name>.<column> = <table name>.<column>',
+        command: 'SELECT * FROM <table name> JOIN <table name> ON <table name>.<column> = <table name>.<column>',
         description: 'EXPLICIT JOIN to join tow tables on a single data point'
+    },
+    {
+        command: 'SELECT * FROM <table name> LEFT JOIN <table name> ON <table name>.column = <table name>.<column> ',
+        description: ''
     }
 ];
 
