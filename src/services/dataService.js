@@ -389,11 +389,11 @@ const joins = [
     },
     {
         command: 'SELECT * FROM <table name> JOIN <table name> ON <table name>.<column> = <table name>.<column>',
-        description: 'EXPLICIT JOIN to join tow tables on a single data point'
+        description: 'EXPLICIT JOIN to join two tables on a single data point'
     },
     {
         command: 'SELECT * FROM <table name> LEFT JOIN <table name> ON <table name>.column = <table name>.<column> ',
-        description: ''
+        description: 'LEFT JOIN to join two tables on all matching data points'
     }
 ];
 
